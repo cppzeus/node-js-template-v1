@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title><%= title %></title>
+  <link href='/stylesheets/style.css' rel='stylesheet'/>
+</head>
+
+<body>
+  <header>
+  </header>
+  <nav>
+    <a class="logo" href="#">Logo</a>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">AboutUs</a></li>
+    </ul>
+  </nav>
+  <section class="banner">
+  </section>
+  <section class="descript">
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+  </section>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function() {
+      let header;
+      header = document.querySelector("header");
+      let b = nav.classList.toggle("sticky", window.scrollY > 0);
+    });
+  </script>
+  <footer>
+  </footer>
+</body>
+
+</html>
