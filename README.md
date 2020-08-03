@@ -1,6 +1,7 @@
 # node-js-template-v1
 
-https://img.shields.io/npm/v/npm, https://img.shields.io/badge/version-1.0.0-red
+https://img.shields.io/npm/v/npm
+https://img.shields.io/badge/version-1.0.0-red
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
