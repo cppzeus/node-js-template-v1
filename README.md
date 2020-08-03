@@ -1,5 +1,8 @@
 # node-js-template-v1
 
+![npm](https://img.shields.io/npm/v/npm) ![HTML-template](https://img.shields.io/badge/HTML--template-1.0.0-blue) ![version](https://img.shields.io/badge/version-1.0.0-red)
+
+
 A barebones Node.js app using [Express 4](http://expressjs.com/).
 
 This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
@@ -27,4 +30,3 @@ $ heroku open
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
