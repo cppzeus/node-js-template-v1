@@ -7,6 +7,6 @@ var KoreaAirportInfoSchema = new mongoose.Schema({
     longitude: Number
 });
 
-mongoose.model('info_koreaairport', KoreaAirportInfoSchema);
+mongoose.model('info_koreaairports', KoreaAirportInfoSchema);
 
-module.exports = mongoose.model('info_koreaairport');
+module.exports = mongoose.model('info_koreaairports');
